@@ -119,19 +119,81 @@ figure {
 }
 
 /* task 1  ============= */
+.task-1 .t-1 {
+	float: left;
+}
 
 /* task 2  ============= */
-
+.task-2 .t-1, .task-2 .t-2 {
+	float: left;
+}
 /* task 3  ============= */
-
+.task-3 .t-1, .task-3 .t-2 {
+	float: left;
+	width: 50% ;
+} 
+.task-3 .t-2 {
+	float: right;
+	width: 50%;
+} 
 /* task 4  ============= */
+.task-4 .b-1 {
+	float: left;
+	width: 50%;
+}
 
+.task-4 .b-2 {
+	float: right;
+	width: 50%;
+}
 /* task 5  ============= */
+.task-5 .b-1, .task-5 .b-2 {
+float: left;
+max-width: 50%;
+}
+
+.task-5 .b-3 {
+float: left;
+width: 33.33%;
+margin: 0 auto;
+}
+
 
 /* task 6  ============= */
-
+.task-6 .header, .task-6 .b-4 {
+	float: left;
+	height: 100px;
+	width: 100%;
+}
+.task-6 .b-2, .task-6 .b-3 {
+	float: left;
+}
+.task-6 .b-2 {
+	width: 30%;
+}
+.task-6 .b-3 {
+	width: 70%;
+}
 /* task 7  ============= */
+.task-7 .b-1, .task-7 .b-2, .task-7 .b-3 {
+	float: left;
+	width: 33.33%;
+}
 
+.task-7 .b-4 {
+	float: left;
+	width: 70%;
+}
+
+.task-7 .b-5 {
+	float: left;
+	width: 30%;
+}
+
+.task-7 .b-6 {
+	float: left;
+	width: 100%;
+}
 /* task-8 ============== */
 
 .task-8 .b-1,
@@ -140,6 +202,8 @@ figure {
 .task-8 .b-4 {
     padding: 10px;
     min-height: 50px;
+	 float: left;
+	width: 50%;
 }
 
 /* task-9 ======================== */
@@ -149,10 +213,19 @@ figure {
 }
 
 .nav-9 ul {
+	display: inline-block;
+	padding-left: 0px;
+	vertical-align: bottom;
 }
 
 .nav-9 ul li {
+	float: left;
+	list-style: none;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 0px;
 }
+
 
 /* task-10 ======================== */
 
@@ -170,5 +243,10 @@ figure {
     display: inline-block;
     list-style-type: none;
     padding: 10px;
-    border: 1px solid #000;
+	 border: 1px solid #000;
+	margin-left: -.36em;
+}
+
+.nav-10 ul li:first-child {
+    	margin-left: 0;
 }
